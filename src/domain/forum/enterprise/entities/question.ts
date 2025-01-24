@@ -8,7 +8,7 @@ import { Optional } from '@/core/types/optional'
 
 interface QuestionProps {
   authorId: UniqueEntityID
-  bestAnswerId: UniqueEntityID
+  bestAnswerId?: UniqueEntityID
   title: string
   content: string
   slug: Slug
