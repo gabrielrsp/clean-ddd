@@ -4,7 +4,7 @@ import { QuestionComment } from '@/domain/forum/enterprise/entities/question-com
 export class InMemoryQuestionCommentsRepository
   implements QuestionCommentsRepository
 {
-  async findById(id: string): Promise<QuestionComment | null> {
+  async findById(id: string) {
     const questionComment = this.items.find((item) => item.id.toString() === id)
 
     if (!questionComment) {
