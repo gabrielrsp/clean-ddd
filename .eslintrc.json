@@ -12,8 +12,10 @@
       "@typescript-eslint/adjacent-overload-signatures": "off",
       "no-self-assign": "off",
       "no-useless-escape": "off",
-      "accessor-pairs": "off"
+      "accessor-pairs": "off",
+      "no-empty-object-type": "off"
   },
+
   "env": {
       "vitest-globals/env": true
     }
