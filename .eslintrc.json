@@ -13,7 +13,8 @@
       "no-self-assign": "off",
       "no-useless-escape": "off",
       "accessor-pairs": "off",
-      "no-empty-object-type": "off"
+      "no-empty-object-type": "off",
+      "no-new": "off"
   },
 
   "env": {
